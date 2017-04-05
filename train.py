@@ -5,6 +5,8 @@ from data import process_gridworld_data
 from model import VI_Block, VI_Untied_Block
 from utils import fmt_row
 
+import os; os.environ["CUDA_VISIBLE_DEVICES"]="0"
+
 # check
 
 # Data
