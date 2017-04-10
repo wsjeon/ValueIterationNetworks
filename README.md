@@ -2,16 +2,14 @@
 
 > Tamar, A., Wu, Y., Thomas, G., Levine, S., and Abbeel, P. _Value Iteration Networks_. Neural Information Processing Systems (NIPS) 2016
 
-> This repository was forked from [@TheAbhiKumar](https://github.com/TheAbhiKumar/tensorflow-value-iteration-networks)
+This repository was forked from [@TheAbhiKumar](https://github.com/TheAbhiKumar/tensorflow-value-iteration-networks). The detailed information is also given in the above link.
 
 ## Training
 - Download the 16x16 and 28x28 GridWorld datasets from the [author's repository](https://github.com/avivt/VIN/tree/master/data). This repository contains the 8x8 GridWorld dataset for convenience and its small size.
-
+- Then, 
 ```
-# Runs the 8x8 Gridworld with default parameters
 python train.py
 ```
-The detailed introduction is given in [@TheAbhiKumar](https://github.com/TheAbhiKumar/tensorflow-value-iteration-networks).
 
 ## Dependencies
 * Python >= 3.6
