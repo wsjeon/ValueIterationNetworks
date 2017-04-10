@@ -2,6 +2,8 @@
 
 > Tamar, A., Wu, Y., Thomas, G., Levine, S., and Abbeel, P. _Value Iteration Networks_. Neural Information Processing Systems (NIPS) 2016
 
+> This repository was forked from [@TheAbhiKumar](https://github.com/TheAbhiKumar/tensorflow-value-iteration-networks)
+
 This repository contains an implementation of Value Iteration Networks in TensorFlow which won the Best Paper Award at NIPS 2016. This code is based on the original Theano implementation by the authors.
 
 ![Value Iteration Network and Module](assets/vin.png)
