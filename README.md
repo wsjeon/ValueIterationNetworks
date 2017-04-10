@@ -4,10 +4,6 @@
 
 > This repository was forked from [@TheAbhiKumar](https://github.com/TheAbhiKumar/tensorflow-value-iteration-networks)
 
-This repository contains an implementation of Value Iteration Networks in TensorFlow which won the Best Paper Award at NIPS 2016. This code is based on the original Theano implementation by the authors.
-
-![Value Iteration Network and Module](assets/vin.png)
-
 ## Training
 
 - Download the 16x16 and 28x28 GridWorld datasets from the [author's repository](https://github.com/avivt/VIN/tree/master/data). This repository contains the 8x8 GridWorld dataset for convenience and its small size.
