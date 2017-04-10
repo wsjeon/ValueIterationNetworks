@@ -18,3 +18,4 @@ python train.py
 
 ## Difference
 - VIN in TensorFlow is modified by using TF Slim.
+- The code is modified to run on Python 2.7.
