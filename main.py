@@ -5,7 +5,7 @@ from data  import process_gridworld_data
 from model import Agent
 from utils import fmt_row
 
-import os; os.environ["CUDA_VISIBLE_DEVICES"]="2"
+import os; os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 # Data
 tf.app.flags.DEFINE_string('input',           'data/gridworld_8.mat', 'Path to data')
