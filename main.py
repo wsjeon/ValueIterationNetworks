@@ -22,7 +22,6 @@ tf.app.flags.DEFINE_integer('statebatchsize', 10,                     'Number of
 # Misc.
 tf.app.flags.DEFINE_integer('seed',           0,                      'Random seed for numpy')
 tf.app.flags.DEFINE_integer('display_step',   1,                      'Print summary output every n epochs')
-tf.app.flags.DEFINE_boolean('log',            True,                  'Enable for tensorboard summary')
 tf.app.flags.DEFINE_string('logdir',          './tmp/vintf/',          'Directory to store tensorboard summary')
 
 agent = Agent()
