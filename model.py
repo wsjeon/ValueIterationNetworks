@@ -3,7 +3,6 @@ import tensorflow as tf
 import tensorflow.contrib.slim as slim
 from tensorflow.contrib.slim import conv2d
 from tensorflow.contrib.slim import fully_connected as fc
-from utils import conv2d_flipkernel
 from data  import process_gridworld_data
 from utils import fmt_row
 import time
